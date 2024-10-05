@@ -2,6 +2,9 @@
 
 The Gmail Filter By Gemini AI is a tool built with Google Apps Script that automatically categorizes and labels your Gmail messages. By leveraging the Gemini Pro API, it analyzes email content to apply appropriate labels, streamlining the management of your inbox.
 
+## Demo
+![Demo](./demo1.gif)
+
 ## Table of Contents
 
 - [Features](#features)
