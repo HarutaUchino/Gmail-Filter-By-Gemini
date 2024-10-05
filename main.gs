@@ -115,7 +115,7 @@ function GmailFilter() {
           break;
         case 5:
           threads[i].addLabel(acceptanceLabel);
-          threads[i].star();
+          messages[j].star();
           Logger.log("Starred the email and added 'Acceptance' label.");
           break;
         case 6:
@@ -132,7 +132,7 @@ function GmailFilter() {
           break;
         case 8:
           threads[i].addLabel(interviewconfirmation);
-          threads[i].star();
+          messages[j].star();
           Logger.log("Starred the email and added 'Interview Confirmation' label.");
           break;
         case 9:
